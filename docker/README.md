@@ -19,3 +19,13 @@
 - Como funciona a parte de login no dockerhub ?
 
 - Como fazer push, get e update de imagen para o dockerhub ?
+
+
+
+
+## Comandos
+
+* `docker ps` -> lista todos os containers ativos
+* `docker ps -a` -> lista todos os containers existentes na máquina
+
+* `docker images` -> lista todas as imagens da máquina
