@@ -26,22 +26,23 @@ Esse nome é também uma extensão de arquivo, então é possível criar mais de
 
 
 
-## Dockerfile
+### Exemplo de dockerfile para spring
+Here
+
+### Como funciona a parte de login no dockerhub ? 
+Para logar desde um terminar e ser possível baixar suas imagens privadas, ou mesmo atualizar alguma imagem privada, deve-se usar o seguiinte comando:
+
+```docker login --username={user_name} --email={email}```
+
+### Como fazer push, get e update de imagen para o dockerhub ?
+Uma vez que esteja logado via terminal, para buscar uma imagen privada usar o comando:
+`docker image pull {image_name}`
+
+e caso queira criar uma nova versão da imagen, se usa os comandos:
+* `docker build -t <your-docker-hub-id>/{image_name}:v1 .`
+* `docker push <your-docker-hub-id>/{image_name}:v1`
 
 
-
-
-
-
-- Como crio um dockerfile para spring ?
-
-- Como funciona as variáveis de ambiente ?
-
-- Como devo criar um dockerfile local para spring boot ?
-
-- Como funciona a parte de login no dockerhub ?
-
-- Como fazer push, get e update de imagen para o dockerhub ?
 
 
 
